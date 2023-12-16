@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { SiGoogledocs } from "react-icons/si";
 import { FaFilePdf } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 export default function Social() {
   return (
@@ -26,12 +27,12 @@ export default function Social() {
                     <a className="social-a" target="_blank" href="mailto:sparshbarolia@gmail.com">
                     <IoIosMail />
                     </a>
-                    </li>
-                {/* <li>
-                    <a href="#">
-                    <i class="fab fa-opera"></i>
-                    </a> 
-                </li> */}
+                </li>
+                <li className="social-li">
+                    <a className="social-a" target="_blank" href="https://github.com/sparshbarolia">
+                    <FaGithub />
+                    </a>
+                </li>
             </ul>
         </div>
     </>

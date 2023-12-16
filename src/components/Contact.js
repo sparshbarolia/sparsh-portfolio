@@ -64,6 +64,7 @@ export default function Contact() {
                             id="exampleInputPassword1"
                             name="user_name"
                             // placeholder='Enter your Name here'
+                            required
                         />
                     </div>
 
@@ -76,6 +77,7 @@ export default function Contact() {
                             aria-describedby="emailHelp" 
                             name="user_email"
                             // placeholder='Enter your Email address here'
+                            required
                         />
                         <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                     </div>
@@ -87,8 +89,9 @@ export default function Contact() {
                             className="form-control" 
                             id="floatingTextarea2" 
                             style={{ height: '100px' }}
-                            name="message">
-                            {/* placeholder="Enter your message here"  */}
+                            name="message"
+                            required
+                        >
                         </textarea>
                     </div>
                     <button type="submit" className="btn">Let's Talk</button>
