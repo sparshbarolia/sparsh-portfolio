@@ -336,7 +336,7 @@ body{
 .social-ul{
   /* border: 2px solid greenyellow; */
   border-radius: 10px;
-  background-color: grey;
+  /* background-color: grey; */
   z-index: 2;
 
   margin: 0;
@@ -373,6 +373,7 @@ body{
   font-size: 30px;
   color: #666;
   transition: .5s;
+  border: 2px solid grey;
 }
 
 .social-a::before {
@@ -403,4 +404,10 @@ body{
   color: var(--primary-orange);
   box-shadow: 0 0 5px var(--primary-orange);
   text-shadow: 0 0 5px var(--primary-orange);
+}
+
+@media only screen and (min-width: 481px) {
+  .social-ul{
+    background-color: grey;
+  }
 }
