@@ -54,7 +54,7 @@ export default function Navbar() {
                     to="skillspg" 
                     spy={true} 
                     smooth={true} 
-                    offset={-90} 
+                    offset={-40} 
                     duration={500}>
                   Skills
                 </Link>
@@ -67,7 +67,7 @@ export default function Navbar() {
                     to="projectpg" 
                     spy={true} 
                     smooth={true} 
-                    offset={-130} 
+                    offset={-90} 
                     duration={500}>
                   Projects
                 </Link>

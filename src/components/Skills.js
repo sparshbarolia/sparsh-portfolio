@@ -1,6 +1,7 @@
 import React from 'react'
 import DSA from '../skill_photos/DSA_logo.png'
 import cpp from '../skill_photos/c-logo.png'
+import node from '../skill_photos/nodePhoto.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -39,6 +40,36 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
+            <div className="skill-card m-3" id='nodelogo' data-aos="zoom-in-up">
+                <div className="card h-100 p-3">
+                    <div className="profileImage m-auto">
+                        <img src={node} className="card-img-top" alt="..."/>
+                    </div>
+                    <div className="card-body d-flex justify-content-center">
+                        <h5 className="card-title">Node Js</h5>
+                    </div>
+                </div>
+            </div>
+            <div className="skill-card m-3" id='sqllogo' data-aos="zoom-in-up">
+                <div className="card h-100 p-3">
+                    <div className="profileImage m-auto">
+                        <img src="https://img.freepik.com/free-icon/mysql_318-698177.jpg" className="card-img-top" alt="..."/>
+                    </div>
+                    <div className="card-body d-flex justify-content-center">
+                        <h5 className="card-title">SQL</h5>
+                    </div>
+                </div>
+            </div>
+            <div className="skill-card m-3" id='cpplogo' data-aos="zoom-in-up">
+                <div className="card h-100 p-3">
+                    <div className="profileImage m-auto">
+                        <img src={cpp} className="card-img-top" alt="..."/>
+                    </div>
+                    <div className="card-body d-flex justify-content-center">
+                        <h5 className="card-title">C++</h5>
+                    </div>
+                </div>
+            </div>
             <div className="skill-card m-3" id='htmllogo' data-aos="zoom-in-up">
                 <div className="card h-100 p-3">
                     <div className="profileImage m-auto">
@@ -56,26 +87,6 @@ export default function Skills() {
                     </div>
                     <div className="card-body d-flex justify-content-center">
                         <h5 className="card-title">CSS</h5>
-                    </div>
-                </div>
-            </div>
-            <div className="skill-card m-3" id='cpplogo' data-aos="zoom-in-up">
-                <div className="card h-100 p-3">
-                    <div className="profileImage m-auto">
-                        <img src={cpp} className="card-img-top" alt="..."/>
-                    </div>
-                    <div className="card-body d-flex justify-content-center">
-                        <h5 className="card-title">C++</h5>
-                    </div>
-                </div>
-            </div>
-            <div className="skill-card m-3" id='sqllogo' data-aos="zoom-in-up">
-                <div className="card h-100 p-3">
-                    <div className="profileImage m-auto">
-                        <img src="https://img.freepik.com/free-icon/mysql_318-698177.jpg" className="card-img-top" alt="..."/>
-                    </div>
-                    <div className="card-body d-flex justify-content-center">
-                        <h5 className="card-title">SQL</h5>
                     </div>
                 </div>
             </div>

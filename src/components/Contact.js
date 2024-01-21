@@ -5,6 +5,14 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
+    const nameField = useRef();
+    const mailField = useRef();
+    const commentField = useRef();
+    const handleSubmit = () => {
+        nameField.current.value="";
+        mailField.current.value="";
+        commentField.current.value="";
+    }
 
     const notify = () => toast.success('Email sent successfully!', {
         position: "top-right",
@@ -50,7 +58,7 @@ export default function Contact() {
 
   return (
     <>
-        <div className="contact-container mb-5" id="contactpg" data-bs-theme="dark">
+        <div className="contact-container mb-5" id="contactpg" data-bs-theme="dark" onSubmit={handleSubmit}>
             <div className="contact-heading-container m-4">
                 <div className="contact-heading my-2">Contact Me</div>
             </div>
@@ -63,6 +71,7 @@ export default function Contact() {
                             className="form-control" 
                             id="exampleInputPassword1"
                             name="user_name"
+                            ref={nameField}
                             // placeholder='Enter your Name here'
                             required
                         />
@@ -76,6 +85,7 @@ export default function Contact() {
                             id="exampleInputEmail1" 
                             aria-describedby="emailHelp" 
                             name="user_email"
+                            ref={mailField}
                             // placeholder='Enter your Email address here'
                             required
                         />
@@ -90,6 +100,7 @@ export default function Contact() {
                             id="floatingTextarea2" 
                             style={{ height: '100px' }}
                             name="message"
+                            ref={commentField}
                             required
                         >
                         </textarea>
