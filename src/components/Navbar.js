@@ -54,7 +54,7 @@ export default function Navbar() {
                     to="skillspg" 
                     spy={true} 
                     smooth={true} 
-                    offset={-40} 
+                    offset={-90} 
                     duration={500}>
                   Skills
                 </Link>

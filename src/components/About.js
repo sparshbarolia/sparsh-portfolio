@@ -21,7 +21,7 @@ export default function About() {
                 <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title"><b>Sparsh</b></h5>
-                    <p className="card-text">I am Currently pursuing my BTech from Netaji Subhas university of Technology(NSUT)(CSE department) with background knowledge of front-end development , DSA , HTML, CSS, ReactJs, JavaScript, C++ Programming language, MySQL along with stack of building useful responsive web application.I possess strong problem-solving skills, allowing me to effectively tackle challenges and find innovative solutions.</p>
+                    <p className="card-text">I am Currently pursuing my BTech from Netaji Subhas university of Technology(NSUT)(CSE department) with background knowledge of full stack web development , DSA , HTML, CSS, ReactJs, JavaScript, C++ Programming language, MySQL along with stack of building useful responsive web application.I possess strong problem-solving skills, allowing me to effectively tackle challenges and find innovative solutions.</p>
                 </div>
             </div>
         </div>
